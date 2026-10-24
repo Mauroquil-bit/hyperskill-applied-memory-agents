@@ -1,0 +1,6 @@
+https://github.com/hyperskill/hs-test-python/archive/release.tar.gz
+click==8.3.3
+openai==2.33.0
+python-dotenv==1.2.2
+tinydb==4.8.2
+chromadb==1.5.8

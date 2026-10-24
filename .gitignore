@@ -1,0 +1,28 @@
+# Secretos: nunca se suben
+.env
+
+# Archivos de configuración del curso
+*.yaml
+
+# gradle
+.gradle/
+build
+
+# Configuración de PyCharm y entorno virtual
+.idea
+
+# Archivos generados por Python
+__pycache__/
+*.pyc
+
+# Datos generados al ejecutar (TinyDB y Chroma)
+tasks.json
+memory.json
+chroma_db/
+
+# Etapas viejas: solo se sube personal_assistant
+/Applied Memory for Agents/*
+!/Applied Memory for Agents/task/
+/Applied Memory for Agents/task/*
+!/Applied Memory for Agents/task/personal_assistant
+!/Applied Memory for Agents/task/memory_storages
